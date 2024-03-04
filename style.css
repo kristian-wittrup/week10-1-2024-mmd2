@@ -1,0 +1,137 @@
+body {
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+.hero {
+    width:100%;
+    height:100vh;
+    background-color:#add8e6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity:1;
+    transform: scale(0.3) translateX(-100%);
+}   
+
+.text {
+    font-size: 32px;
+}
+
+.text span {
+    display: inline-block;
+    /* opacity: 0; */
+}
+
+.hidden-blockOne {
+    height: 300px;
+    width: 300px;
+    background-color: beige;
+    position: absolute;
+    z-index: 10;
+    opacity: 0;
+    bottom:0;
+    left:0;
+    transform: scale(0)
+}
+
+.hidden-blockTwo {
+    height: 100px;
+    width: 100%;
+    background-color: #7bccce;
+    position: absolute;
+    z-index: 10;
+    opacity: 0;
+    top:0;
+    right:0;
+    transform: scale(0)
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* body {
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+    text-align: center;
+    position: relative; */ /* part two */
+/* }
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    background-color: #add8e6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0.3) translateX(-100%);
+    opacity: 1;
+
+}
+
+.text {
+    font-size: 2rem;
+}
+
+.text span {
+    display: inline-block;
+    opacity: 0;
+}
+ */
+
+/*
+Part Two
+*//* 
+.hidden-blockOne {
+    height: 500px;
+    width: 300px;
+    background-color: beige;
+    position: absolute;
+    z-index: 10;
+    opacity: 0;
+    bottom:0;
+    left:0;
+    transform: scale(0)
+}
+
+.hidden-blockTwo {
+    height: 300px;
+    width: 300px;
+    background-color: rgb(94, 141, 150);
+    position: absolute;
+    z-index: 10;
+    opacity: 0;
+    bottom:0;
+    right:0;
+    transform: scale(0)
+} */
